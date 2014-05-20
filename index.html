@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mi primera aplicación</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="principal" data-theme="b">
+	<div data-role="header">
+		<h1>Mis redes sociales</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+        <li data-role="list-divider" role="heading">REDES FAVORITAS :D</li>
+			<li><a href="#facebook" data-transition="slide"><img src="imagenes/facebook_logo_detail.jpg">Facebook</a></li>
+            <li><a href="#twitter" data-transition="slidedown"><img src="imagenes/Twitter-Bird-Logo.png">Twitter</a></li>
+			<li><a href="#instagram" data-transition="slideup"><img src="imagenes/Instagram-nuevo.jpeg">Instagram</a></li>
+		</ul>		
+	</div>
+    <br>
+    <a href="#mypop" data-rel="popup" class="ui-btn ui-btn-inline ui-btn-corner-all">E-mail</a>
+    <div data-role="popup" id="mypop">
+    <p>an_ton_1997@hotmail.com</p>
+    </div>
+    <a href="#mypop2" data-rel="popup" class="ui-btn ui-btn-inline ui-btn-corner-all">Vine</a>
+    <div data-role="popup" id="mypop2">
+    <p>Toño HC</p>
+    </div>
+    <br>
+    <P align="center"> Sí, así es, uso Facebook, Twitter, Instagram como la mayoría de las personas con sus celulares, pero, no las uso por muchas horas, trato de controlar el tiempo en Internet xD ☝.
+    Oh!, También tengo Vine</P> <br>
+    <img src="imagenes/f_t_i_v.jpg">
+    
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+        <a href="#principal" data-transition="slide" data-icon="home">INICIO</a>
+        </li>
+        <li> <a href="#ayuda" data-transition="fade" data-icon="info">AYUDA</a>
+        </li>
+        <li>
+        <a href="#contacto" data-transition="pop" data-icon="star">CONTACTO</a>
+        </li>
+        </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="facebook">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Vete</a>
+		<h1>Facebook</h1>
+	</div>
+	<div data-role="content" align="center">
+    <img src="imagenes/screenshotfb.png"> <br>
+    <p> Yo inicié mi cuenta de Facebook en septiembre de 2011, pocos amigos y publicaciones. Ahora, tengo más de 900 amigos, ya dejó de interesarme tener los 2000 amigos, lo uso de forma "regular" :)</p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+        <a href="#principal" data-transition="slide" data-icon="home">INICIO</a>
+        </li>
+        <li> <a href="#ayuda" data-transition="fade" data-icon="info">AYUDA</a>
+        </li>
+        <li>
+        <a href="#contacto" data-transition="pop" data-icon="star">CONTACTO</a>
+        </li>
+        </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="twitter">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Vete</a>
+		<h1>Twitter</h1>
+	</div>
+	<div data-role="content" align="center">	
+	<img src="imagenes/twitterscreen.png">	<br>
+    <p> Inicié sesión por primera vez en Twitter, a finales de marzo del 2012, con muchos siguiendo y pocos seguidores, yo ni sabía usarlo, tampoco lo que quiere decir Retweet. Con los años que fueron pasando, ya voy aprendiendo, me gusta ver los tweets que envian y las noticias de cuentas oficiales. </p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		 <div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+        <a href="#principal" data-transition="slide" data-icon="home">INICIO</a>
+        </li>
+        <li> <a href="#ayuda" data-transition="fade" data-icon="info">AYUDA</a>
+        </li>
+        <li>
+        <a href="#contacto" data-transition="pop" data-icon="star">CONTACTO</a>
+        </li>
+        </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="instagram">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Vete</a>
+		<h1>Instagram</h1>
+	</div>
+	<div data-role="content" align="center">	
+		<img src="imagenes/instascreenshot.png"> <br>
+        <p> Comencé en Instagram el año pasado, ni tenía celular en los primeros meses, hacía comentarios y likes a fotos. En junio me compré mi celular con Android, descargué la aplicación de Instagram, elijo algunas fotos, poniéndoles filtros y compartirlas :D</p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+        <a href="#principal" data-transition="slide" data-icon="home">INICIO</a>
+        </li>
+        <li> <a href="#ayuda" data-icon="info">AYUDA</a>
+        </li>
+        <li>
+        <a href="#contacto" data-icon="star">CONTACTO</a>
+        </li>
+        </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="ayuda">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Vete</a>
+		<h1>Ayuda</h1>
+	</div>
+	<div data-role="content" align="center">	
+		Si necesitan mi ayuda para algo, sólo búsquenme. Ya saben en donde C:
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+        <a href="#principal" data-transition="slide" data-icon="home">INICIO</a>
+        </li>
+        <li> <a href="#ayuda" data-icon="info">AYUDA</a>
+        </li>
+        <li>
+        <a href="#contacto" data-icon="star">CONTACTO</a>
+        </li>
+        </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="contacto">
+	<div data-role="header">
+	<a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">Vete</a>
+		<h1>Contacto</h1>
+	</div>
+	<div data-role="content" align="center">	
+		Número de casa: No tengo :( <br>
+        Celular: Me lo piden a mí personalmente  
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+        <a href="#principal" data-transition="slide" data-icon="home">INICIO</a>
+        </li>
+        <li> <a href="#ayuda"  data-transition="slidedown" data-icon="info">AYUDA</a>
+        </li>
+        <li>
+        <a href="#contacto" data-transition="slideup" data-icon="star">CONTACTO</a>
+        </li>
+        </ul>
+        </div>
+	</div>
+</div>
+
+</body>
+</html>
